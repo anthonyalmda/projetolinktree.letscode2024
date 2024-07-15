@@ -1,0 +1,88 @@
+
+.header {
+    display: flex;
+    
+    align-items: center;
+    text-align: center;
+    font-size: 40px;
+    flex-direction: column;
+    font-family: "Platypi";
+    margin-left: 45px;
+    font-weight: "700" ;
+    justify-content:space-evenly;
+    color: #5AA9E6;
+}
+.foto{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 0px;
+}
+
+.biografia {
+    font-size: 20px;
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 350px;
+    
+    color: #5AA9E6;
+    
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    
+}
+li {
+    list-style: none;
+    background-color: #7FC8F8;
+    justify-self: center;
+    font-size: 18px;
+    align-items: center;
+    text-align: center;
+    margin: 10px;
+    width: 350px;
+    height: 70%;
+    color: #F9F9F9;
+    font-family: 'Platypi';
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    text-decoration: none;
+}
+li:hover{
+    background-color: #5AA9E6;
+    font-size: 20px;
+
+    
+
+}
+li:active{
+    transform: all 0.3s ease;
+    font-size: 22px;
+    color: #7FC8F8;
+    background-color: #7FC8F8;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.footer{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #5AA9E6;
+    
+}
